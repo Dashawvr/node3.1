@@ -11,7 +11,7 @@ module.exports = {
     },
     createCar: (car) => {
         const newCar = {
-            id: cars.length +1,
+            id: cars[cars.length - 1].id + 1,
             ...car
         }
         cars.push(newCar)

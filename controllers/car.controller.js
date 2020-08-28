@@ -1,8 +1,7 @@
 const { carService } = require('../services');
 module.exports = {
     getCars: (req, res) => {
-        const car = req.params;
-        const cars = carService.getAllCars(car)
+        const cars = carService.getAllCars();
         res.json(cars);
     },
     getCarById: (req, res) => {
