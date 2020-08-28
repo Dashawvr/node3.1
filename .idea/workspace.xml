@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69bd0680-5c91-4910-8ec5-61a779a598ce" name="Default Changelist" comment="CRUD done(Fixed)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/car.controller.js" afterDir="false" />
+    <list default="true" id="69bd0680-5c91-4910-8ec5-61a779a598ce" name="Default Changelist" comment="CRUD done(2/Fixed)">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/car.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <updated>1598534969041</updated>
       <workItem from="1598534974467" duration="5000" />
       <workItem from="1598535013020" duration="7526000" />
-      <workItem from="1598593644100" duration="1985000" />
+      <workItem from="1598593644100" duration="2211000" />
     </task>
     <task id="LOCAL-00001" summary="CRUD done">
       <created>1598595080736</created>
@@ -96,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598631948302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CRUD done(2/Fixed)">
+      <created>1598639057912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598639057912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +122,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CRUD done" />
     <MESSAGE value="CRUD done(Fixed)" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD done(Fixed)" />
+    <MESSAGE value="CRUD done(2/Fixed)" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD done(2/Fixed)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="598" y="325" key="Github.ShareDialog" timestamp="1598556074549">
@@ -127,10 +134,10 @@
       <screen x="0" y="23" width="1440" height="788" />
     </state>
     <state x="537" y="40" key="Github.UntrackedFilesDialog/0.23.1440.788@0.23.1440.788" timestamp="1598556094718" />
-    <state x="320" y="153" key="Vcs.Push.Dialog.v2" timestamp="1598631950875">
+    <state x="320" y="153" key="Vcs.Push.Dialog.v2" timestamp="1598639063005">
       <screen x="0" y="23" width="1440" height="788" />
     </state>
-    <state x="320" y="153" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1598631950875" />
+    <state x="320" y="153" key="Vcs.Push.Dialog.v2/0.23.1440.788@0.23.1440.788" timestamp="1598639063005" />
     <state x="385" y="135" width="670" height="676" key="search.everywhere.popup" timestamp="1598631868821">
       <screen x="0" y="23" width="1440" height="788" />
     </state>

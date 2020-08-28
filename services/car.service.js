@@ -43,9 +43,8 @@ module.exports = {
         if (singleCar) {
             const car = cars.indexOf(singleCar);
             cars.splice(car, 1);
-        } else {
-            return ('Something Wrong');
-        }
+        } return ('Something Wrong');
+
     }
 
 

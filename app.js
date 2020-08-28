@@ -9,7 +9,6 @@ app.use('/cars', carRouter);
 app.listen('5000', (err)=> {
     if(err) {
         console.log(err);
-    } else {
-        console.log('Server 5000');
     }
+    console.log('Server 5000');
 })
