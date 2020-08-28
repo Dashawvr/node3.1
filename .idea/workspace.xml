@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69bd0680-5c91-4910-8ec5-61a779a598ce" name="Default Changelist" comment="" />
+    <list default="true" id="69bd0680-5c91-4910-8ec5-61a779a598ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/car.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/car.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/car.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/car.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/car.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/car.service.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -21,6 +29,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ggSuy1LBLgWgizPXK6jXNMKSIl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598534969041</updated>
       <workItem from="1598534974467" duration="5000" />
-      <workItem from="1598535013020" duration="7399000" />
+      <workItem from="1598535013020" duration="7526000" />
+      <workItem from="1598593644100" duration="1117000" />
     </task>
     <servers />
   </component>
@@ -61,6 +71,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="598" y="325" key="Github.ShareDialog" timestamp="1598556074549">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="598" y="325" key="Github.ShareDialog/0.23.1440.788@0.23.1440.788" timestamp="1598556074549" />
+    <state x="537" y="40" key="Github.UntrackedFilesDialog" timestamp="1598556094718">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state x="537" y="40" key="Github.UntrackedFilesDialog/0.23.1440.788@0.23.1440.788" timestamp="1598556094718" />
     <state x="385" y="135" width="670" height="676" key="search.everywhere.popup" timestamp="1598535447358">
       <screen x="0" y="23" width="1440" height="788" />
     </state>

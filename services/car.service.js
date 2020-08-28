@@ -1,6 +1,9 @@
 const {users} = require('../database');
 
 module.exports = {
+    getAllCars: () => {
+        return users;
+    },
     getById: id => {
         let singleCar = users.find(user => user.id === +id);
         return singleCar ? singleCar : 'Something Wrong';
@@ -35,11 +38,13 @@ module.exports = {
         return car;
     },
 
-    deleteCar: () => {
-        const singleCar = users.find( a => a.id === +id);
+    deleteCar: (id) => {
+        const singleCar = users.find( index => index.id === +id);
         if (singleCar) {
             const car = users.indexOf(singleCar);
             users.splice(car, 1);
+        } else {
+            return ('Something Wrong');
         }
     }
 

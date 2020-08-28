@@ -1,8 +1,9 @@
 const { carService } = require('../services');
 module.exports = {
     getCars: (req, res) => {
-
-        res.json(arr);
+        const car = req.params;
+        const cars = carService.getAllCars(car)
+        res.json(cars);
     },
     getCarById: (req, res) => {
         console.log(req.params);
@@ -27,6 +28,8 @@ module.exports = {
         res.json(savedCar)
     },
     deleteCar: (req,res) => {
-        res.send('Something Wrong');
+        const car = req.body;
+        const deletedCar = carService.deleteCar(car);
+        res.json(deletedCar);
     }
 }

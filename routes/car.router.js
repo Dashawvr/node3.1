@@ -6,19 +6,12 @@ const controller = require('../controllers/car.controller');
 carRouter.get('/', controller.getCars);
 
 carRouter.get('/:id', controller.getCarById);
-
-// // delete
-// carRouter.delete('/:id', controller.deleteCar());
-//
 // // create
 carRouter.post('/', controller.createCar);
-//
 // //update
 carRouter.put('/:id', controller.updateCar);
-
-
-
-
+// // delete
+carRouter.delete('/:id', controller.deleteCar);
 
 module.exports = carRouter;
 
