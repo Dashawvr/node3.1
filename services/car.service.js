@@ -1,26 +1,26 @@
-const {users} = require('../database');
+const {cars} = require('../database');
 
 module.exports = {
     getAllCars: () => {
-        return users;
+        return cars;
     },
     getById: id => {
-        let singleCar = users.find(user => user.id === +id);
+        let singleCar = cars.find(user => user.id === +id);
         return singleCar ? singleCar : 'Something Wrong';
 
     },
     createCar: (car) => {
         const newCar = {
-            id: users.length +1,
+            id: cars.length +1,
             ...car
         }
-        users.push(newCar)
+        cars.push(newCar)
         return newCar
     },
     updateCar: (id, updatedCar) => {
-        const car = users.find(car => car.id === +id);
+        const car = cars.find(car => car.id === +id);
 
-        for (let car of users) {
+        for (let car of cars) {
             if (car.id === +id) {
                 for (const key in car) {
                     car[key] = updatedCar.key;
@@ -29,7 +29,7 @@ module.exports = {
             }
         }
 
-        console.log(users);
+        console.log(cars);
 
         /*const car = users.find(car => car.id === +id);
         const indexToDelete = users.indexOf(car);
@@ -39,10 +39,10 @@ module.exports = {
     },
 
     deleteCar: (id) => {
-        const singleCar = users.find( index => index.id === +id);
+        const singleCar = cars.find( index => index.id === +id);
         if (singleCar) {
-            const car = users.indexOf(singleCar);
-            users.splice(car, 1);
+            const car = cars.indexOf(singleCar);
+            cars.splice(car, 1);
         } else {
             return ('Something Wrong');
         }

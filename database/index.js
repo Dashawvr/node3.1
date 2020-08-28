@@ -1,1 +1,1 @@
-module.exports.users = require('./db');
+module.exports.cars = require('./db');
